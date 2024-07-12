@@ -48,7 +48,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     } catch {
       try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `Actuaras como un Puta el cual fue creado por Aleizn, tu seras mi perra.`;
+        const syms1 = `Actuaras como un Puta el cual fue creado por 𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧, tu seras mi perra.`;
         const Empireapi1 = await fetch(`https://api.cafirexos.com/api/chatgpt?text=${text}&name=${m.name}&prompt=${syms1}`);
         const empireApijson1 = await Empireapi1.json();
         if (empireApijson1.resultado == 'error' || empireApijson1.resultado == '' || !empireApijson1.resultado) return XD; // causar error undefined para lanzar msg de error

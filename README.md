@@ -1,5 +1,5 @@
 
-### `—◉ 👑 ¡Hola! Aleizn-MD?, CONTACTAME 👑`
+### `—◉ 👑 ¡Hola! 𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧-MD?, CONTACTAME 👑`
 <a href="http://wa.me/+51992621601" target="blank"><img src="https://img.shields.io/badge/Ale-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
@@ -22,7 +22,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/aleizn/Propio
+git clone https://github.com/𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧/Propio
 ```
 
 ```bash

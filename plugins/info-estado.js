@@ -56,7 +56,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY` },
+    document: { url: `https://chat.whatsapp.com/FJKCgZJs6P1FEvIb1Tl6FM` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -65,13 +65,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY",
+        mediaUrl: "https://chat.whatsapp.com/FJKCgZJs6P1FEvIb1Tl6FM",
         mediaType: 2,
         previewType: "pdf",
         title: "𝐂𝐀𝐆𝐀 𝐇𝐈𝐄𝐋𝐎",
         body: "𝐂𝐀𝐆𝐀 𝐇𝐈𝐄𝐋𝐎",
         thumbnail: imagen1,
-        sourceUrl: "https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY",
+        sourceUrl: "https://chat.whatsapp.com/FJKCgZJs6P1FEvIb1Tl6FM",
       },
     },
     caption: info,

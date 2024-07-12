@@ -1499,7 +1499,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ALEIZN 👑;;;\nFN:ALEIZN 👑\nORG:ALEIZN 👑\nTITLE:\nitem1.TEL;waid=51992621601:+51 992 621 601\nitem1.X-ABLabel:ALEIZN 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:ALEIZN 👑\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧 👑;;;\nFN:𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧 👑\nORG:𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧 👑\nTITLE:\nitem1.TEL;waid=51992621601:+51 992 621 601\nitem1.X-ABLabel:𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧 👑\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝙅𝙤𝙨𝙨 👑', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
@@ -1546,7 +1546,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ℹ️ ] Este comando fue desactivado por el propietario del bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'INKABOT', thumbnail: imagen1, sourceUrl: 'https://www.instagram.com/ale.izn_20/'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: '𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧', thumbnail: imagen1, sourceUrl: 'https://www.instagram.com/usxr.alxb/'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
