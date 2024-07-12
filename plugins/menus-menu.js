@@ -28,7 +28,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┎━━━━━━━ ∙ʚ🤴🏻ɞ∙ ━━━━━━━┒
 ┃⭐ Creador : Aleizn
 ┃📞 Wa.me/51992621601
-┃IG: https://www.instagram.com/ale.izn_20/
+┃   _𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧_ 🤍
 ┖━━━━━━━ ∙ʚ⚜️ɞ∙ ━━━━━━━┚
 
 

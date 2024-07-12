@@ -22,10 +22,10 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = '𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧';
+  const wm = '_𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧_ 🤍';
   const info = ` _*< INFO - ESTADO />*_
 
- [🤴🏻] *Prop.:* 𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧
+ [🤴🏻] *Prop.:* _𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧_ 🤍
  [#️⃣] *WA:* wa.me/51992621701
 
  [💡] *Ping:* ${rtime}

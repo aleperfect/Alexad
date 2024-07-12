@@ -5,17 +5,17 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `*@inkaikos_ff:* ${pesan}`;
-  let teks = `*⺀🟡𝗘𝗧𝗜𝗤𝗨𝗘𝗧𝗔 𝗚𝗘𝗡𝗘𝗥𝗔𝗟⺀*\n\n ${oi}\n\n ⚫𝗜𝗡𝗞𝗔𝗜𝗞𝗢𝗦—𝗕𝗢𝗧 🟡\n`;
+  const oi = `*⇢Mensaje:* ${pesan}`;
+  let teks = `*_𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧_ 🤍*\n\n ${oi}\n\n ⇢𝗘𝘁𝗶𝗾𝘂𝗲𝘁𝗮:\n`;
   for (const mem of participants) {
-    teks += `🟡➤ @${mem.id.split('@')[0]}\n`;
+    teks += `👻･ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `*└* 𝗡𝗞𝗔𝗕𝗢𝗧\n\n*🏴‍☠️*`;
+  teks += `— _𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧_\n\n*🏴‍☠️*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
-handler.help = ['stc <mesaje>', 'cts <mesaje>'];
+handler.help = ['todos <mesaje>', 'ghost <mesaje>'];
 handler.tags = ['group'];
-handler.command = /^(stc|cts)$/i;
+handler.command = /^(todos|ghost)$/i;
 handler.admin = true;
 handler.group = true;
 export default handler;
